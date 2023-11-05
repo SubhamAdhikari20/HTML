@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter-4 Form</title>
+</head>
+<body>
+    <div>
+        <form action="form.php">
+            Name : <input type="text" placeholder = "Enter your name" name="name" id="ame1">
+            Email : <input type="email" name="email" id="email1">
+            <br>
+            <label for="namea">
+                <input type="radio" value = "name A" name="name" id="namea">Subham
+            </label>
+            
+            <label for="nameb">
+                <input type="radio" value = "name B" name="name" id="nameb">Atal
+            </label>
+            
+            <label for="namec">
+                <input type="radio" value = "name C" name="name" id="namec">Dikshant
+            </label><br>
+
+            <input type="checkbox" name="Are you human" id="recapcha">
+            <label for="recapcha">sdd</label><br>
+            
+            <input type="date" name="date" id="date"><br>
+            
+            <textarea name="explain" id="explain" cols="30" rows="10" placeholder="Explain you answer"></textarea><br>
+
+            <select name="stream" id="stream">
+                <option value="select"selected >Select your stream</option>
+                <option value="s1">Science</option>
+                <option value="s2">management</option>
+                <option value="s3">law</option>
+            </select>
+        </form>
+    </div>
+</body>
+</html>
